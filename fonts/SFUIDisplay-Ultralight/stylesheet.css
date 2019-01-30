@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'SF UI Display1';
+    src: url('SFUIDisplay-Ultralight.eot');
+    src: url('SFUIDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('SFUIDisplay-Ultralight.woff2') format('woff2'),
+        url('SFUIDisplay-Ultralight.woff') format('woff'),
+        url('SFUIDisplay-Ultralight.ttf') format('truetype'),
+        url('SFUIDisplay-Ultralight.svg#SFUIDisplay-Ultralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
