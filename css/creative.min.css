@@ -1,7 +1,31 @@
+.logoalpinist {
+    background-image: url(../img/logo_white.svg);
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+    margin-top: -130px;
+}
+
 .col-lg-8 {
 	-ms-flex: 0 0 86.666667%;
     flex: 0 0 86.666667%;
     max-width: 86.666667%;
+}
+
+.forstylecenterservice {
+padding-bottom: 100px;
+}
+
+.forstylecenterservice .col-lg-3{
+   -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.forstylecenterservice .col-lg-3 .service-box{
+	max-width: none;
 }
 
 .col-lg-3 {
@@ -34,6 +58,11 @@ html {
   height: 100%;
   background-color: #1a1a1a;
   color: #ffffff;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+   user-select: none;
 }
 .row.firstrow {
     background-color: rgba(0, 0, 0, 0.60);
@@ -41,15 +70,7 @@ html {
 -moz-box-shadow: 0px 0px 63px 36px rgba(0,0,0,0.6);
 box-shadow: 0px 0px 63px 36px rgba(0,0,0,0.6);
 }
-.logoalpinist {
-    background-image: url(../img/logo_white.svg);
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    background-repeat: no-repeat;
-    margin-left: -30px;
-    margin-top: -130px;
-}
+
 header.masthead h1 {
     font-family: 'SF UI Display1';
     font-style: normal;
@@ -76,15 +97,31 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: white;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #f05f40;
+  color: #f9f65e;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
+#services a {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  line-height: 1.75rem;
+}
+
+#services a:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1.85rem;
+  line-height: 1.75rem;
+}
 
 .bg-primary {
   background-color: #1a1a1a !important;
@@ -163,6 +200,7 @@ img::-moz-selection {
   font-size: 17px;
   font-weight: 700;
   color: #212529;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   line-height: 20px;
 }
@@ -170,6 +208,7 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
   color: #F05F40;
+  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   line-height: 19px;
 }
@@ -178,7 +217,8 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #f9f65e !important;
   background-color: transparent;
-    transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   line-height: 20px;
 }
 
@@ -196,11 +236,13 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     color: white;
 	line-height: 20px;
+	-webkit-transition: all 0.2s;
 	transition: 0.2s linear;
 	font-size: 22px;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fbf645;
+	-webkit-transition: all 0.2s;
 	transition: 0.2s linear;
 	font-size:24px;
 	margin-left: -2px;
@@ -217,9 +259,10 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #f9f65e;
-		transition: 0.2s linear;
-		line-height:20px;
-		font-size: 18px;
+	-webkit-transition: all 0.2s;
+	transition: 0.2s linear;
+	line-height:20px;
+	font-size: 18px;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -377,4 +420,79 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+@media (max-width: 320px) {
+section {
+    padding: 2rem 0;
+}
+.logoalpinist {
+    width: 150px;
+    height: 150px;
+    margin-top: -68px;
+    margin-left: -22px;
+}
+#mainNav .navbar-brand {
+    color: #ffffff;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+	color: #fbf645;
+}
+
+#mainNav {
+	width: 320px;
+	border-bottom: none;
+	padding-bottom: 6px;
+	background-color: rgba(0,0,0,0.35);
+}
+
+.col-lg-3 {
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+header.masthead hr {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    max-width: 75px;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+	color:white;
+	text-align:right;
+	line-height: 20px;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+	color: #fbf645;
+	line-height: 20px;
+}
+.navbar-dark .navbar-toggler:active,
+.navbar-dark .navbar-toggler,
+.navbar-dark .navbar-toggler:hover,
+.navbar-dark .navbar-toggler:focus,
+.navbar-dark .navbar-toggler:link,
+.navbar-dark .navbar-toggler:visited,
+.navbar-dark .navbar-toggler:first-child {
+	border-color: rgba(255,255,255,.0) !important;
+}
+.col-lg-3 hr {
+	display:none;
+}
+#services .section-heading {
+    margin-top: 60px;
+}
+.forstylecenterservice {
+	padding-bottom: 0px;
+}
+#services hr {
+	margin-top: 10px !important;
+	margin-bottom: 0px !important;
+}
+.col-lg-8 h2, .col-lg-12 h2 {
+	font-size: 2.2rem;
+}
+.h3, h3 {
+    font-size: 1.6rem;
+}
 }
