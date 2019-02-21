@@ -5,7 +5,41 @@
     position: absolute;
     background-repeat: no-repeat;
     margin-left: -30px;
-    margin-top: -130px;
+    margin-top: -110px;
+}
+.firstselections {
+margin-top: 100px !important;;
+}
+brand {
+	font-size: 1.5rem;
+}
+
+hr.hr1 {
+    max-width: 183px;
+}
+
+hr.hr4 {
+    max-width: 120px;
+}
+
+hr.hr5 {
+    max-width: 665px;
+}
+
+hr.hr6 {
+    max-width: 630px;
+}
+
+hr.hr7 {
+    max-width: 695px;
+}
+
+hr.hr8 {
+    max-width: 665px;
+}
+
+hr.hr9 {
+    max-width: 173px;
 }
 
 .col-lg-8 {
@@ -58,6 +92,7 @@ html {
   height: 100%;
   background-color: #1a1a1a;
   color: #ffffff;
+  font-size: 1.1rem;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -104,10 +139,17 @@ a {
 }
 
 a:hover {
-  color: #f9f65e;
+  color: #fbf645;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   text-decoration: none;
+}
+.telecalss {
+background: url("../img/phonecontimage.png");
+display: inline-block;
+width: 50px;
+height:50px;
+margin-right: 13px;
 }
 
 #services a {
@@ -215,7 +257,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #f9f65e !important;
+  color: #fbf645 !important;
   background-color: transparent;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -258,7 +300,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #f9f65e;
+    color: #fbf645;
 	-webkit-transition: all 0.2s;
 	transition: 0.2s linear;
 	line-height:20px;
@@ -269,7 +311,7 @@ img::-moz-selection {
     color: white;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f9f65e;
+    color: #fbf645;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -277,7 +319,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #f9f65e;
+    color: #fbf645;
   }
 }
 
