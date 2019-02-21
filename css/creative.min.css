@@ -145,11 +145,68 @@ a:hover {
   text-decoration: none;
 }
 .telecalss {
-background: url("../img/phonecontimage.png");
-display: inline-block;
-width: 50px;
-height:50px;
-margin-right: 13px;
+  background: url("../img/phonecontimage.svg");
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.mailcalss {
+  background: url("../img/mailcontimage.svg");
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.iconresizer {
+  width: 53px;
+  height:53px;
+  background-size: 50px;
+   -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iconresizer:hover {
+  width: 53px;
+  height:53px;
+  background-size: 53px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.fixiconresizer {
+  width: 53px;
+  height:53px;
+}
+
+.teledivcalss p {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+.maildivcalss p {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+.teledivcalss p:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1.1em;
+  line-height: 1.1em;
+}
+
+.maildivcalss p:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 1.1em;
+  line-height: 1.1em;
 }
 
 #services a {
